@@ -1,9 +1,117 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;500;800&family=Roboto:wght@100;400&display=swap');
+
+
+body{
+    margin: 0px;
+    margin-top:0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#greeting-container {
-  margin-top: 20px;
+#content {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+/* header styles */
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: grey;
+    margin-top: 0px;
+    justify-content: start;
+}
+
+header b{
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+header button{
+    background-color: grey;
+    border: 0px;
+    color: white;
+    margin: 10px 20px 10px 20px;
+}
+
+header h1{
+    color: white;
+}
+
+/* home seciton styles */
+#home{
+    height: 75vh;
+    margin: auto;
+    align-items: center;
+}
+
+#home img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15vh 40% 20px 40%;
+}
+
+#home h2, #home p{
+    margin:auto;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+/* about-me section styles */
+#about-me{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin:auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+#about-me #left{
+    width: 50%;
+    flex-direction: column;
+}
+
+#left img{
+    width: 300px;
+    height: auto;
+}
+
+#left h2, h5, span{
+    margin-left: 30px;
+}
+
+#about-me #right{
+    flex-direction: column;
+}
+
+/* projects */
+#projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background-color: aliceblue;
+    width: 30%;
+    margin: 20px;
+    aspect-ratio: 1/1;
 }
