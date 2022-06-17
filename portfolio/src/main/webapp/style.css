@@ -14,9 +14,20 @@ header{
     position: relative;
     background-color: grey;
     margin-top: 0px;
+    justify-content: start;
 }
 
-header button{
+nav {
+    margin-top: 10px;
+}
+
+header b{
+    margin-left: 20px;
+    margin-right: 20px;  
+
+}
+
+header a{
     background-color: grey;
     border: 0px;
     color: white;
@@ -24,6 +35,29 @@ header button{
 
 header h1{
     color: white;
+}
+
+
+/* home seciton styles */
+#home{
+    height: 75vh;
+    margin: auto;
+    align-items: center;
+}
+
+#home img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 15vh 40% 20px 40%;
+}
+
+#home h2, #home p{
+    margin:auto;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 /* about-me section styles */
@@ -41,13 +75,94 @@ header h1{
 #about-me #left{
     width: 50%;
     flex-direction: column;
+    align-items: center;
 }
 
 #left img{
+    margin: auto;
+    margin-left: 30px;
     width: 300px;
-    aspect-ratio: 1/1;
+    height: auto;
 }
 
-#greeting-container {
-  margin-top: 20px;
+#left h3, h5{
+    margin-left: 30px;
+}
+
+#contacts{
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contacts a{
+    margin-right: 10px;
+}
+
+#about-me #right{
+    flex-direction: column;
+}
+
+/* projects */
+
+#projects{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    aspect-ratio: 1/1;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 3px solid #ccc;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 3px 3px rgb(222, 221, 221);
+}
+
+.project-card img{
+    width: 100%;
+    aspect-ratio: 8/5;
+    object-fit: cover;
+}
+
+/* styles for the My Loves section */
+
+#hobbies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#hobbies img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:auto;
+    padding: 10px;
+    margin: 10px;
+    /* width: 30% - 10px; */
+}
+
+h2 {
+    margin-top: 60px;
+
 }
