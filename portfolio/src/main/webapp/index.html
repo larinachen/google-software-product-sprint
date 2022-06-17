@@ -10,10 +10,12 @@
     
     <!-- header -->    
     <header class="sticky">
-        <b>Yundi's Portfolio<b>
-        <button id='About'>About</button>
-        <button id='Projects'>Projects</button>
-        <button id='MyLoves'>My Loves</button>
+        <nav>
+            <b>Yundi's Portfolio</b>
+            <a href="#about-me">About</a>
+            <a href="#projects-title">Projects</a>
+            <a href="#my-loves-title">My Loves</a>
+        </nav>
     </header> 
 
     <div id="content">       
@@ -28,12 +30,12 @@
       <section id="about-me">
         <div id="left">
             <div id='content'>
-                <img src="/images/Chen_Larina_Photo.jpg">
-                <h2>Yundi Chen</h2>
+                <img src="/images/books.jpg">
+                <h3>Yundi Chen</h3>
                 <h5>Computer Science student @ Northwestern University</h5>
-                <span id="contacts"><a href='larinachen2024@u.northwestern.edu'>Email</a> 
-                        <a href='https://www.linkedin.com/in/larina-chen/'>LinkedIn</a> 
-                        <a href='https://github.com/larinachen'>GitHub</a></span>
+                <span id="contacts"><a href='larinachen2024@u.northwestern.edu'>Email </a>
+                        <a href='https://www.linkedin.com/in/larina-chen/'>LinkedIn </a> 
+                        <a href='https://github.com/larinachen'>GitHub </a></span>
             </div>
             
         </div>
@@ -50,27 +52,49 @@
 
       </section>
 
+      <div id="projects-title"></div>
+      <h2>Projects</h2> 
       <section id="projects">
             <div class="project-card">
-                
+                <img src="/images/Mello Home Page.png">
+                <h4>Mello Wellness Web App</h4>
             </div>
 
             <div class="project-card">
-                
+                <img src="/images/demo_pic.png">
+                <h4>ACTivism Chrome Extension</h4>
             </div>
 
             <div class="project-card">
-                
+                <img src="/images/bobaanalysis.png">
+                <h4>Boba Shop Rating Predictor</h4>
             </div>
       </section>
 
+      <div id="my-loves-title"></div>
+      <h2>My loves</h2>
       <section id="my-loves">
 
             <section id="hobbies">
+                <div class="column">
+                    <img src="/images/books.jpg">
+                    <img src="/images/beach.jpg">
+                </div>
+                <div class="column">
+                    <img src="/images/deserttrek.jpg">
+                    <img src="/images/ukelele.png">
+                </div>
 
+                <div class="column">
+                    <img src="/images/art gallery 2.jpg">
+                    <img src="/images/stinky.jpg">
+                </div>
+                
             </section>
+
       </section>
       
+      <h2>Fun Things</h2>
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
