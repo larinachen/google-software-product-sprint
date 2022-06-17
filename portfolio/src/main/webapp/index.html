@@ -94,7 +94,15 @@
 
       </section>
       
-      <h2>Fun Things</h2>
+      <h2>Message Me!</h2>
+      <form action="/form-handler" method="POST">
+        <p>Let's chat! Leave your message and contacts here:</p>
+        <textarea id="text-input-name" name="text-input-name">your name</textarea>
+        <textarea id="text-input-message" name="text-input-message">your message...</textarea>
+        <br/>
+        <input type="submit" onclick="showFormInput()"/>
+      </form>
+
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Cli   </body>
 </html>

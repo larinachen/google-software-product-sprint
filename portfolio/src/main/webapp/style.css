@@ -164,5 +164,14 @@ header h1{
 
 h2 {
     margin-top: 60px;
+}
 
+/* contact form*/
+#text-input-name{
+    width: 100%;
+    height: 20px;    
+}
+#text-input-message{
+    width: 100%;
+    height: 100px;
 }
