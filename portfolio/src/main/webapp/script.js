@@ -27,3 +27,9 @@ function addRandomGreeting() {
   greetingContainer.innerText = greeting;
 }
 
+// alert
+// async function showFormInput() {
+//     const responseFromForm = await fetch('/form-handler');
+//     const textFromResponse = await responseFromForm.text();
+//     alert(textFromResponse)
+// }
