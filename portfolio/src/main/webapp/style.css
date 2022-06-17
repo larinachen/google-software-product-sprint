@@ -1,34 +1,16 @@
-/* font */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;500;800&family=Roboto:wght@100;400&display=swap');
-
-
-body{
-    margin: 0px;
-    margin-top:0px;
-    font-family: 'Roboto', sans-serif;
-}
-
 #content {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
 
 /* header styles */
 header{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40px;
+    height: 30px;
     position: relative;
     background-color: grey;
     margin-top: 0px;
@@ -42,18 +24,19 @@ nav {
 header b{
     margin-left: 20px;
     margin-right: 20px;  
+
 }
 
 header a{
     background-color: grey;
     border: 0px;
     color: white;
-    margin: 10px 20px 10px 20px;
 }
 
 header h1{
     color: white;
 }
+
 
 /* home seciton styles */
 #home{
@@ -79,7 +62,7 @@ header h1{
 
 /* about-me section styles */
 #about-me{
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     border: 1px solid #ccc;
@@ -181,4 +164,5 @@ header h1{
 
 h2 {
     margin-top: 60px;
+
 }
